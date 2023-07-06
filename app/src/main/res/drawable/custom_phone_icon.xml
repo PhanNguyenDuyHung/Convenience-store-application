@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The icon will turn to primary color when the edit text is in focused -->
+    <item android:drawable="@drawable/ic_baseline_smartphone_24_focused" android:state_focused="true" />
+    <!-- The icon will turn gray when the edit text is out of focused -->
+    <item android:drawable="@drawable/ic_baseline_smartphone_24" android:state_focused="false"/>
+</selector>
